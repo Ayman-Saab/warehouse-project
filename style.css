@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 900;
+    color: grey
+}
+
+.main_container {
+    width: 100%;
+    height: 100vh;
+}
+
+/* Header */
+
+.header {
+    padding: 0;
+}
+
+/* End here */
+
+
+/* Content */
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 70%;
+}
+
+.animated-text {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: auto;
+    font-size: 36px;
+    animation: bounce 2s infinite;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); /* Adjust the bounce height as needed */
+    }
+}
+
+/* End here */
+
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    font-weight: 900;
+    min-height: 5%;
+}
+
+.footer .text {
+    padding: 50px;
+}
+
+/* End here */
+
